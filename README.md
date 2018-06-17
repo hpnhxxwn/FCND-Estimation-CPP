@@ -83,14 +83,14 @@ Process the logged files to figure out the standard deviation of the the GPS X s
 
 The script to calculate the standard deviation is [`cal_std.py`](cal_std.py).
 
+Standard deviation:
+![std_dev](images/std_dev.png)
+
 <p align="center">
 <img src="images/1.gif" width="500"/>
 </p>
 
 ***Success criteria:*** *Your standard deviations should accurately capture the value of approximately 68% of the respective measurements.*
-
-Standard deviation:
-![std_dev](images/std_dev.png)
 
 Screenshot of passing result:
 ![Result1](images/1.png)
@@ -241,7 +241,7 @@ In this step, the GPS update is implemented using the below equation.
 Implementation is line 302-314 in [`QuadEstimatorEKF.cpp`](src/QuadEstimatorEKF.cpp#L302).
 
 <p align="center">
-<img src="images/5.gif" width="500"/>
+<img src="images/6_1.gif" width="500"/>
 </p>
 
 ***Success criteria:*** *Your objective is to complete the entire simulation cycle with estimated position error of < 1m.*
@@ -259,7 +259,7 @@ In this step, the controller is replaced with the controller I implemented in th
 
 ***Success criteria:*** *Your objective is to complete the entire simulation cycle with estimated position error of < 1m.*
 
-![Result5](images/6.png)
+![Result6](images/6.png)
 
 
 **References**
