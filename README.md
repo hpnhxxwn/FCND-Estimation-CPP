@@ -246,7 +246,7 @@ Implementation is line 302-314 in [`QuadEstimatorEKF.cpp`](src/QuadEstimatorEKF.
 
 ***Success criteria:*** *Your objective is to complete the entire simulation cycle with estimated position error of < 1m.*
 
-![Result5](images/5.png)
+![Result5](images/6_1.png)
 
 
 ### Step 6: Adding Your Controller ###
