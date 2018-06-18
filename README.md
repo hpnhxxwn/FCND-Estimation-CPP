@@ -114,7 +114,7 @@ Then I integrate the result into the estimated pitch and roll angle, line 104-11
 ```
 
 <p align="center">
-<img src="images/2.gif" width="500"/>
+<img src="images/s7.gif" width="500"/>
 </p>
 
 ***Success criteria:*** *Your attitude estimator needs to get within 0.1 rad for each of the Euler angles for at least 3 seconds.*
@@ -194,7 +194,7 @@ The real implementation is line 269-278 in [`QuadEstimatorEKF.cpp`](src/QuadEsti
   ekfCov = gPrime * ekfCov * gPrime.transpose() + Q;
 ```
 <p align="center">
-<img src="images/4.gif" width="500"/>
+<img src="images/s9.gif" width="500"/>
 </p>
 
 ***Success criteria:*** *This step doesn't have any specific measurable criteria being checked.*
@@ -254,7 +254,7 @@ Implementation is line 302-314 in [`QuadEstimatorEKF.cpp`](src/QuadEstimatorEKF.
 In this step, the controller is replaced with the controller I implemented in the third project, and I de-tuned the parameters.
 
 <p align="center">
-<img src="images/6.gif" width="500"/>
+<img src="images/s11.gif" width="500"/>
 </p>
 
 ***Success criteria:*** *Your objective is to complete the entire simulation cycle with estimated position error of < 1m.*
